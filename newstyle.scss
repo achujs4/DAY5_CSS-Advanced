@@ -1,0 +1,11 @@
+$color1: blue;
+h1{
+    color: $color1;
+}
+
+.container{
+    .child{
+        border: 2px dashed $color1;
+    }
+}
+

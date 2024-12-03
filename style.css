@@ -1,0 +1,67 @@
+
+.img{
+   position: relative;
+
+}
+.p #one{
+    top: 0px;
+    position: absolute;
+}
+.p #two{
+    top: 0px;
+    position: absolute;
+    left: 500px;
+}
+.p #three{
+    top: 500px;
+    position: absolute;
+}
+
+.p #four{
+    top:500px;
+    position: absolute;
+    left: 600px;
+}
+.container{
+    border: 2px solid green;
+    width: 50%;
+    display: flex;
+    flex-direction : row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    gap: 30px;
+}
+
+.child{
+    border: 1px solid rgb(205, 21, 21);
+
+}
+
+
+header{
+    background-color: black;
+    padding: 30px;
+}
+
+.container{
+  
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:end;
+    row-gap: 100px;
+}
+nav a{
+    color: white;
+    border: 2px solid rgb(14, 13, 13);
+}
+
+@media screen and (min-width: 460px){
+    .container{
+        flex-direction: column;
+        background-color: aqua;
+    }
+   
+}
